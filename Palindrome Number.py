@@ -9,4 +9,4 @@ def isPalindrome(self,x):
     else:
         return False
 
-x=input()
+x=input("Enter the integer")
