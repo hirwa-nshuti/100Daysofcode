@@ -12,3 +12,5 @@ class Factorial:
             return fact
 
 print(Factorial().factorial(4))
+print(Factorial().factorial(7))
+print(Factorial().factorial(5))
