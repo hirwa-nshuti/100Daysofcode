@@ -1,4 +1,8 @@
-#In this file I am going to implement some methods on Linked lists.
+"""
+Implementing some of the LinkedList functions 
+In this file I try to practice on how to play with Linkedlists and thsi makes me more Familiar with
+Linkedlists
+"""
 class Node:
     def __init__(self,data=None,next=None):
         self.data = data
