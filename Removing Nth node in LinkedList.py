@@ -33,20 +33,26 @@ class LinkedList:
             count+=1
             itr = itr.next
         return count
-    def removeNthFromEnd(self,index):
-        index=index-1
-        if index<0 or index>=self.get_l():
-            raise Exception("Index Out of range")
-        if index ==0:
-            self.head=self.head.next
-        count=0
+    #Inserting a New List of Values
+    def insert_Values(self,data_list):
+        self.head=None
+        for l in data_list:
+            self.insert_at_end(l)
+    def removeNthFromEnd(self, n):
+        l=[]
         itr=self.head
         while itr:
-            if count == index-1:
-                itr.next=itr.next.next
-                break
-            itr = itr.next
-            count +=1
+            l.append(itr.data)
+            itr=itr.next
+        l.pop(len(l)-n)
+        i=Node()
+        temp = i
+        for j in l:
+            i.next = Node(j)
+            i = i.next
+        return temp.next
+
+
 if __name__=="__main__":
     m_l=LinkedList()
     m_l.insert_at_end(1)
@@ -54,6 +60,7 @@ if __name__=="__main__":
     m_l.insert_at_end(3)
     m_l.insert_at_end(4)
     m_l.insert_at_end(5)
+    m_l.print()
     m_l.removeNthFromEnd(2)
     m_l.print()
 
