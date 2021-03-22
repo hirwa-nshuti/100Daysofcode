@@ -32,8 +32,8 @@ class Hashtable:
 
 
 test=Hashtable()
-test["hirwa"]=130
+test["march 6"]=130
 test["coding"]=263
-test["him"]=102
-print(test["hirwa"])
-print(test.arr)
+test["march 17"]=102
+print(test["march 6"])
+print(test["march 6"])
