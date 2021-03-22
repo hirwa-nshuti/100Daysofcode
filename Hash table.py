@@ -25,6 +25,11 @@ class Hashtable:
     def __getitem__(self,key):
         h=self.get_hash(key)
         return self.arr[h]
+    #Deleting Item from a hashtable
+    def __delitem__(self,key):
+        h=self.get_hash(key)
+        self.arr[h] =None
+
 
 test=Hashtable()
 test["hirwa"]=130
