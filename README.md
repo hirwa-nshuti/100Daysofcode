@@ -8,5 +8,5 @@ I post every day challenge to my linkedin profile:
 
 The problems that I solve are from leetcode and here is my profile
 <details>
-  <summary> <b><i><a href="https://leetcode.com/hirwa-nshuti/" target=" ">Leetcode Profile</a></i></b></summary>
+  <summary> <b><i><a href="https://leetcode.com/hirwa-nshuti/" target="blank">Leetcode Profile</a></i></b></summary>
 </details> 
