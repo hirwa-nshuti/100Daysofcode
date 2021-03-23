@@ -31,8 +31,6 @@ class stack:
     def size(self):
         return len(self.container)
 #A function to reverse this string "We will win this match"
-
-#Creating a checking dictionary
 def rev_st(s):
     stk=stack()
     for char in s:
