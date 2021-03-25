@@ -36,7 +36,6 @@ class TreeNode:
             prefix = space + "|__"
         else:
             prefix = ""
-
         print(prefix + self.data)
         if self.children:
             for child in self.children:
@@ -69,3 +68,4 @@ def build_prod_tree():
 
 if __name__ == '__main__':
     build_prod_tree()
+
