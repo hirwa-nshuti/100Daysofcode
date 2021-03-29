@@ -34,7 +34,7 @@ def binary_search_recursive(num_list,num_to_find,left_index,right_index):
             return -1
 
         mid_number = num_list[mid_index]
-        if mid_number == num_find:
+        if mid_number == num_to_find:
             return mid_index
 
         if mid_number == num_to_find:
