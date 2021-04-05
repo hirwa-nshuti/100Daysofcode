@@ -38,4 +38,4 @@ if __name__ == '__main__':
         ]
     for elements in tests:
         shell_sort(elements)
-        print(elements)
+        print(f"Sorted Elements{elements}")
